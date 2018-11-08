@@ -1,0 +1,50 @@
+{
+  "name": "@easyke/daemon-api",
+  "version": "0.0.1",
+  "description": "easycms daemon api",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easycms/daemon-api-node.git"
+  },
+  "keywords": [
+    "easycms-daemon-api"
+  ],
+  "author": {
+    "name": "yuchonghua",
+    "email": "easycms@easyke.top",
+    "url": "http://easyke.top"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/easycms/daemon-api-node/issues"
+  },
+  "dependencies": {
+    "semver": "~5",
+    "ws": "~6.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "~12.0.0||~12.0.0-alpha.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.7.1"
+  },
+  "contributors": [
+    {
+      "name": "yuchonghua",
+      "email": "yuchonghua@163.com"
+    }
+  ],
+  "homepage": "https://easycms.wiki/wiki/daemon-api-node#readme"
+}
